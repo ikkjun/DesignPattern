@@ -1,2 +1,3 @@
-# DesignPattern
- Java Design Pattern
+# Java 언어로 배우는 디자인 패턴 입문
+## <1부> 디자인 패턴에 익숙해지다.
+### Part 1 Iterator - 처리를 반복하다.
