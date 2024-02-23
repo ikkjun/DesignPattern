@@ -11,6 +11,7 @@ public class Main {
             f.setValue("height", "512");
             f.setValue("depth", "32");
             f.writeToFile("newfile.txt");
+            System.out.println("newfile.txt is created");
         } catch (IOException e) {
             e.printStackTrace();
         }
