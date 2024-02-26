@@ -1,4 +1,4 @@
-public class CharDisplay extends AbstractDisplay {
+public class CharDisplay implements AbstractDisplay {
     private char ch;// 표시해야 하는 문자
 
     // 생성자
