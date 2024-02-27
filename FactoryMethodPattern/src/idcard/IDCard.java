@@ -4,10 +4,12 @@ import framework.Product;
 
 public class IDCard extends Product {
     private String owner;
+    private int number;
 
-    IDCard(String owner) {
-        System.out.println(owner + "의 카드를 만듭니다.");
+    IDCard(String owner, int number) {
+        System.out.println(owner + "의 카드를 " + number + "로 만듭니다.");
         this.owner = owner;
+        this.number = number;
     }
 
     @Override public void use() {
@@ -15,7 +17,7 @@ public class IDCard extends Product {
     }
 
     @Override public String toString() {
-        return "[IDCard:" +  owner + "]";
+        return "[IDCard: " +  owner + ", number: " + number + "]";
     }
 
     public String getOwner() {

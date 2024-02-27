@@ -4,8 +4,8 @@ import framework.Factory;
 import framework.Product;
 
 public class IDCardFactory extends Factory {
-    @Override protected Product createProduct(String owner) {
-        return new IDCard(owner);
+    @Override protected Product createProduct(String owner, int number) {
+        return new IDCard(owner, number);
     }
 
     @Override protected void registerProduct(Product product) {
