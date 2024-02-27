@@ -1,3 +1,5 @@
+import sun.security.krb5.internal.Ticket;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Start");
@@ -10,5 +12,13 @@ public class Main {
             System.out.println("obj1과 obj2는 같은 인스턴스가 아닙니다.");
         }
         System.out.println("End.");
+
+        System.out.println("Ticket Start");
+        for(int i=0;i<10;i++) {
+            System.out.println(i + ":" + TicketMaker.getInstance().getNextTicketNumber());
+        }
+        System.out.println("End");
+
+
     }
 }
