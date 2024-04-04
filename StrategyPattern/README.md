@@ -3,6 +3,8 @@ The strategy pattern allows us to change the behavior of an algorithm at runtime
 
 Strategy 패턴에서는 구현한 알고리즘을 모두 바꿀 수 있다. 
 Strategy 패턴은 알고리즘(전략)을 바꿔서 같은 문제를 다른 방법으로 해결하기 쉽게 만들어 주는 패턴이다.
+매개변수를 통해 변하는 것과 변하지 않는 것을 분리. 클래스가 아니면 구현이 되었는지 검토할 수 없다.
+템플릿: 상속을 통해. 조상이 템플릿
 
 ## 장점
 - 런타임에 한 객체 내부에서 사용되는 알고리즘들을 교환할 수 있다.
