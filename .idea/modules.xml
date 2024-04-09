@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/AdapterPattern/AdapterPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/BridgePattern/BridgePattern.iml" filepath="$PROJECT_DIR$/BridgePattern/BridgePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/BuilderPattern/BuilderPattern.iml" filepath="$PROJECT_DIR$/BuilderPattern/BuilderPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChainOfResponsibility/ChainOfResponsibility.iml" filepath="$PROJECT_DIR$/ChainOfResponsibility/ChainOfResponsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/CompositePattern/CompositePattern.iml" filepath="$PROJECT_DIR$/CompositePattern/CompositePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" filepath="$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DesignPattern.iml" filepath="$PROJECT_DIR$/.idea/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FacadePattern/FacadePattern.iml" filepath="$PROJECT_DIR$/FacadePattern/FacadePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryMethodPattern/FactoryMethodPattern.iml" filepath="$PROJECT_DIR$/FactoryMethodPattern/FactoryMethodPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/IteratorPattern/IteratorPattern.iml" filepath="$PROJECT_DIR$/IteratorPattern/IteratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/PrototypePattern/PrototypePattern.iml" filepath="$PROJECT_DIR$/PrototypePattern/PrototypePattern.iml" />
