@@ -22,7 +22,7 @@ Composite 패턴은 그릇과 내용물을 동일시하는 패턴인데, 이를 
 ### 예시
 프로그램 동작 테스트를 모아서 할 때 Composite 패턴을 사용할 수 있다. 
 KeyboardTest에서는 키보드 입력 테스트를 하고, FileTest에서는 파일 입력 테스트를 하고, NetworkTest에서는 네트워크 입력 테스트를 한다고 가정하자. 
-이때 KeyboardTest, FileTest, NetworkTest 셋을 한꺼번에 다루고 싶 을 때, Composite 패턴을 사용해 여러 테스트를 모아 InputTest라는 '입력 테스트'로 만드는 것이다. 
+KeyboardTest, FileTest, NetworkTest 셋을 한꺼번에 다루고 싶을 때, Composite 패턴을 사용해 여러 테스트를 모아 InputTest라는 '입력 테스트'로 만들 수 있다. 
 
 ## 재귀적 구조 사용 예시
 - 윈도 시스템에서는 윈도 안에 자식 윈도를 갖는 것
