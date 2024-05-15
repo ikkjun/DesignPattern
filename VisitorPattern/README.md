@@ -8,23 +8,23 @@ Use the Visitor Pattern when you want to add capabilities to a composite of obje
 The Visitor must visit each element of the Composite; that functionality is in a Traverser object.
 
 ## 구성요소
-- Visitor(방문자) 역
+- Visitor(방문자) 역<br>
 데이터 구조의 구체적인 요소(ConcreteElement 역)마다 XXXX를 방문했다는 visit(XXXx) 메소드를 선언한다. (Visitor 클래스)
 
-- Concretevisitor(구체적인 방문자) 역
+- Concretevisitor(구체적인 방문자) 역<br>
 Visitor의 인터페이스(API)를 구현한다. (ListVisitor 클래스)
 
-- Element(요소) 역
+- Element(요소) 역<br>
 Visitor가 방문할 곳을 나타내며, 방문자를 받아들이는 accept 메소드를 선언한다. 
 accept 메소드의 인수로는 Visitor가 전달된다. 
 (Element 인터페이스)
 
-- ConcreteElement(구체적인 요소) 역
+- ConcreteElement(구체적인 요소) 역<br>
 Element의 인터페이스(API)를 구현한다. 
 (File 클래스와 Directory 클래스)
 
-- ObjectStructure(오브젝트 구조)역
-Element 집합을 다룬다. (Directory 클래스)
+- ObjectStructure(오브젝트 구조)역<br>
+Element 집합을 다룬다. (Directory 클래스)<br>
 ConcreteVisitor가 각각의 Element를 다룰 수 있도록 예제 프로그램의 Director 클래스에 iterator 메소드가 있다.
 
 ## 특징
