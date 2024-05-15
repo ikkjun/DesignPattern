@@ -25,14 +25,14 @@ Element 집합을 다룬다. (Directory 클래스)<br>
 ConcreteVisitor가 각각의 Element를 다룰 수 있도록 예제 프로그램의 Director 클래스에 iterator 메소드가 있다.
 
 ## 특징
-1. 더블 디스패치
+1. 더블 디스패치<br>
 Visitor 패턴에서 더블 디스패치(double dispatch)란 ConcreteElement 역과 ConcreteVisitor 역의 조합으로 실제 처리를 결정하는 것을 말한다. 
 element는 visitor를 accept하고 visitor는 element를 visit한다. 
 
-2. 목적
+2. 목적<br>
 Visitor 패턴의 목적은 처리를 데이터 구조와 분리하는 것이다.
 Visitor 패턴은 File 클래스나 Directory 클래스의 부품으로서의 독립성을 높여 준다. 
 만약, 처리 내용을 File 클래스나 Directory 클래스의 메소드로 프로그램을 작성하면 새로운 '처리'를 추가해서 기능을 확장하고 싶어질 때마다, File 클래스나 Directory 클래스를 수정해야 한다.
 
-3. OCP
+3. OCP<br>
 Visitor패턴을 사용하면 OCP(The Open-Closed Principle) 원칙에 따라 기존 클래스를 수정하지 않고 확장할 수 있다.
