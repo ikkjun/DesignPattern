@@ -9,15 +9,23 @@ The Visitor must visit each element of the Composite; that functionality is in a
 
 ## 구성요소
 - Visitor(방문자) 역
-데이터 구조의 구체적인 요소(ConcreteElement 역)마다 XXXX를 방문했다는 visit(XXXx) 메소드를 선언합 니다. visit(xxxx)는 XXxX를 처리하기 위한 메소드로 실제 코드는 ConcreteVisitor 쪽에 기술됩니다. 예제 프로그램에서는 Visitor 클래스가 이 역할을 맡았습니다.
-w Concretevisitor(구체적인 방문자) 역
-Visitor의 인터페이스(API)를 구현합니다. visit(xxxx) 형태의 메소드를 구현하고, 각 ConcreteElement마 다 처리를 기술합니다. 예제 프로그램에서는 ListVisitor 클래스가 이 역할을 맡았습니다. Listvisitor에서 currentdir 필드 값이 변화한 것처럼 visit(XXXx)를 처리하는 중에 ConcreteVisitor 역의 내부 상태가 변화 하기도 합니다.
-~ Element(요소) 역
-Visitor가 방문할 곳을 나타내며, 방문자를 받아들이는 accept 메소드를 선언합니다. accept 메소드의 인수 로는 Visitor 역이 전달됩니다. 예제 프로그램에서는 Element 인터페이스가 이 역할을 맡았습니다.
-" ConcreteElement(구체적인 요소) 역
-Element의 인터페이스(API)를 구현합니다. 예제 프로그램에서는 File 클래스와 Directory 클래스가 이 역 할을 맡았습니다.
-w objectStructure(오브젝트 구조)역
-Element 집합을 다릅니다. ConcreteVisitor가 각각의 Element를 취급할 수 있는 메소드를 갖추고 있습니 다. 예제 프로그램에서는 Directory 클래스가 이 역할을 맡았습니다(1인 2역). ConcreteVisitor가 각각의 Blement를 다룰 수 있도록 예제 프로그램의 Director 클래스에 iterator 메소드가 준비되어 있습니다.
+데이터 구조의 구체적인 요소(ConcreteElement 역)마다 XXXX를 방문했다는 visit(XXXx) 메소드를 선언한다. (Visitor 클래스)
+
+- Concretevisitor(구체적인 방문자) 역
+Visitor의 인터페이스(API)를 구현한다. (ListVisitor 클래스)
+
+- Element(요소) 역
+Visitor가 방문할 곳을 나타내며, 방문자를 받아들이는 accept 메소드를 선언한다. 
+accept 메소드의 인수로는 Visitor가 전달된다. 
+(Element 인터페이스)
+
+- ConcreteElement(구체적인 요소) 역
+Element의 인터페이스(API)를 구현한다. 
+(File 클래스와 Directory 클래스)
+
+- ObjectStructure(오브젝트 구조)역
+Element 집합을 다룬다. (Directory 클래스)
+ConcreteVisitor가 각각의 Element를 다룰 수 있도록 예제 프로그램의 Director 클래스에 iterator 메소드가 있다.
 
 ## 특징
 1. 더블 디스패치
