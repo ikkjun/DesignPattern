@@ -25,4 +25,4 @@ Chain of Responsibility 패턴처럼 위임을 통해 처리를 떠넘기면 상
 그렇게 하면 각각의 ConcteteHandler 역으로 작성해야 하는 처리가 그 ConcreteHandler 역에 고유한 내용으로 좁혀진다.
 4. 떠넘기기로 처리가 지연될 수 있다.<br>
 그 담당자가 바로 처리할 때와 비교하면 Chain of Responsibility 패턴을 적용한 경우의 처리는 지연된다. 
-하지만 이것은 무엇을 우선으로 하느냐 하는 트레이드오프 문제입니다. 요구와 처리자의 관계가 고정적이고 처리 속도가 매우 중요한 경우에는 Chain of Responsibility 패턴을 사용하지 않는 편이 효과적일 수도 있습니다.
+요구와 처리자의 관계가 고정적이고 처리 속도가 매우 중요한 경우에는 Chain of Responsibility 패턴을 사용하지 않는 편이 낫다.
