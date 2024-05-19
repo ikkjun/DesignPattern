@@ -29,16 +29,21 @@ Facade 역은 그 복잡함을 의식하지 않도록 해준다.
 너무 많은 메소드나 필드를 public으로 선언하면 클래스 내부를 수정하기 어렵다. 
 
 ## 활용
-Facade 역을 맡은 클래스 집합이 여러 개 있다고 합시다. 그때, 그 집합을 모아서 새로운 Facade 역을 도입할 수도 있습니다. 즉, Facade 패턴을 재귀적으로 적용하는 것입니다.
+Facade 역을 맡은 클래스 집합이 여러 개인 경우, 그 집합을 모아서 새로운 Facade 역을 도입할 수도 있다. 
+즉, Facade 패턴을 재귀적으로 적용하는 것이다.
 
 ## Facade 패턴의 사용을 꺼리는 이유
-복잡한 프로그램 내부를 숙지한 프로그래머는 어쩌면 Facade 역을 만들고 싶지 않을 수도 있습니다. 오히려 Facade 역 만들기를 무의식중에 피하기도 합니다.
-어떤 프로그래머가 '이 클래스를 호출하기 전에 이쪽을 호출해야지'라고 의기양양하게 말한다면, Facade 역 을 도입할 필요가 있음을 시사합니다. 명확하게 언어로 표현할 수 있는 노하우는 프로그래머의 머릿속에 숨 겨 둘 것이 아니라, 코드로 표현해 두어야 합니다.
+복잡한 프로그램 내부를 숙지한 프로그래머는 Facade 역을 만들고 싶지 않거나 Facade 역을 무의식중에 생성을 하지 않으려고 한다.
+어떤 프로그래머가 '이 클래스를 호출하기 전에 이쪽을 호출해야지'라고 의기양양하게 말한다면, Facade 역을 도입할 필요가 있다는 것이다. 
 
 ## 관련 패턴
-Abstract Factory 패턴(part 8)
-Abstract Factory 패턴은 객체 생성이라는 복잡한 작업에 대한 Facade 패턴으로 볼 수 있습니다. '객체를 생성하기 위해서는 이것만 호출하면 OK'라는 인터페이스(API)를 제공하기 때문입니다.
-• Singleton 패턴(part 5)
-Facade 역은 Singleton 패턴으로 만들어질 수 있습니다.
-w Mediator 패턴(part 16)
-Facade 패턴에서는 Facade 역이 일방적으로 다른 역을 이용해서 높은 수준의 인터페이스(API)를 만들었습 니다. Mediator 패턴에서 Mediator 역은 Colleague 역의 중개자로서 상호 작용합니다. Facade 패턴은 단 방향이지만, Mediator 패턴은 양방향이라고 할 수 있습니다.
+- Abstract Factory 패턴
+Abstract Factory 패턴은 객체 생성이라는 복잡한 작업에 대한 Facade 패턴으로 볼 수 있다. 
+
+- Singleton 패턴
+Facade 역은 Singleton 패턴으로 만들어질 수 있다.
+
+- Mediator 패턴
+Facade 패턴에서는 Facade 역이 일방적으로 다른 역을 이용해서 높은 수준의 인터페이스(API)를 만들었다. 
+Mediator 패턴에서 Mediator 역은 Colleague 역의 중개자로서 상호 작용한다. 
+Facade 패턴은 단방향이지만, Mediator 패턴은 양방향이다.
