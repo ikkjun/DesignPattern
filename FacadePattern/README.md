@@ -37,13 +37,13 @@ Facade 역을 맡은 클래스 집합이 여러 개인 경우, 그 집합을 모
 어떤 프로그래머가 '이 클래스를 호출하기 전에 이쪽을 호출해야지'라고 의기양양하게 말한다면, Facade 역을 도입할 필요가 있다는 것이다. 
 
 ## 관련 패턴
-- Abstract Factory 패턴
+- Abstract Factory 패턴<br>
 Abstract Factory 패턴은 객체 생성이라는 복잡한 작업에 대한 Facade 패턴으로 볼 수 있다. 
 
-- Singleton 패턴
+- Singleton 패턴<br>
 Facade 역은 Singleton 패턴으로 만들어질 수 있다.
 
-- Mediator 패턴
+- Mediator 패턴<br>
 Facade 패턴에서는 Facade 역이 일방적으로 다른 역을 이용해서 높은 수준의 인터페이스(API)를 만들었다. 
 Mediator 패턴에서 Mediator 역은 Colleague 역의 중개자로서 상호 작용한다. 
 Facade 패턴은 단방향이지만, Mediator 패턴은 양방향이다.
