@@ -6,3 +6,13 @@ Mediator 패턴에서 '중재자'는 mediator(조정자), '각 멤버'는 collea
 
 다수의 객체 사이에서 조정해야 할 때 Mediator 패턴이 등장한다. 
 표시 컨트롤 로직은 중재자 안에만 기술한다.
+
+## 2. 구성요소
+- Mediator(조정자, 중재자) 역
+Colleague와 통신하고 조정하는 인터페이스(API)를 정의합니다. 예제 프로그램에서는 Mediator 인터페이 스가 이 역할을 맡았습니다.
+- ConcreteMediator(구체적인 조정자, 중재자) 역
+Mediator의 인터페이스(API)를 구현해 실제로 조정합니다. 예제 프로그램에서는 LoginFrame 클래스가 이 역할을 맡았습니다.
+- Colleague(동료) 역
+Mediator와 통신하는 인터페이스(API)를 정의합니다. 예제 프로그램에서는 Colleague 인터페이스가 이 역 할을 맡았습니다.
+- ConcreteColleague(구체적인 동료) 역
+Colleague의 인터페이스(AP)를 구현합니다. 예제 프로그램에서는 ColleagueButton, ColleagueTextField, ColleagueCheckbox 클래스가 이 역할을 맡았습니다
