@@ -9,10 +9,10 @@ Mediator 패턴에서 '중재자'는 mediator(조정자), '각 멤버'는 collea
 
 ## 2. 구성요소
 - Mediator(조정자, 중재자) 역
-Colleague와 통신하고 조정하는 인터페이스(API)를 정의합니다. 예제 프로그램에서는 Mediator 인터페이 스가 이 역할을 맡았습니다.
+Colleague와 통신하고 조정하는 인터페이스(API)를 정의한다. (Mediator 인터페이스)
 - ConcreteMediator(구체적인 조정자, 중재자) 역
-Mediator의 인터페이스(API)를 구현해 실제로 조정합니다. 예제 프로그램에서는 LoginFrame 클래스가 이 역할을 맡았습니다.
+Mediator의 인터페이스(API)를 구현해 실제로 조정한다. (LoginFrame 클래스)
 - Colleague(동료) 역
-Mediator와 통신하는 인터페이스(API)를 정의합니다. 예제 프로그램에서는 Colleague 인터페이스가 이 역 할을 맡았습니다.
+Mediator와 통신하는 인터페이스(API)를 정의한다. (Colleague 인터페이스)
 - ConcreteColleague(구체적인 동료) 역
-Colleague의 인터페이스(AP)를 구현합니다. 예제 프로그램에서는 ColleagueButton, ColleagueTextField, ColleagueCheckbox 클래스가 이 역할을 맡았습니다
+Colleague의 인터페이스(AP)를 구현한다. (ColleagueButton, ColleagueTextField, ColleagueCheckbox 클래스)
