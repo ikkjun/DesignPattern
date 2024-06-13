@@ -17,3 +17,13 @@ Subject로부터 상태가 변했다는 사실을 전달받는다. (Observer 인
 1. 구상 클래스 부분을 교환하는 방법
     - 추상 클래스나 인터페이스를 사용하여 구상 클래스로부터 추상 메소드를 분리한다.
     - 인수로 인스턴스를 전달할 때나 필드로 인스턴스를 저장할 때는 구상 클래스형으로 하지 않고 추상 클래스나 인터페이스형으로 해둔다.
+2. Model/View/Controller(MVC)
+   - MVC 구조에서 Model과 View의 관계는 Observer 패턴의 Subject와 Observer 관계에 대응한다.
+
+## 관련 패턴
+- Mediator 패턴<br>
+   - 공통점<br>
+      상태 변화를 알린다.
+   - 차이점: 패턴의 목적과 관점<br>
+      - Mediator 패턴: Colleague 역의 조정이 목적
+      - Observer 패턴: Subject 역의 상태 변화를 Observer역에 통지하고 동기화하는 것이 목적
