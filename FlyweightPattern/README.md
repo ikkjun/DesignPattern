@@ -4,5 +4,7 @@
 
 ## 구성요소
 - Flyweight(플라이급) 역
+BigChar 클래스
 - FlyweightFactory(플라이급 공장) 역
+Flyweight를 만드는 공장이다. (BigCharFactory)
 - Client(의뢰자) 역
