@@ -8,3 +8,4 @@ BigChar 클래스
 - FlyweightFactory(플라이급 공장) 역
 Flyweight를 만드는 공장이다. (BigCharFactory)
 - Client(의뢰자) 역
+FlyweightFactory를 사용하여 Flyweight를 만들어 내고 이용한다. (BigString)
