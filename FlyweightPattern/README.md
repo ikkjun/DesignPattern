@@ -4,7 +4,7 @@
 
 ## 구성요소
 - Flyweight(플라이급) 역
-BigChar 클래스
+평소처럼 인스턴스를 생성하면 프로그램이 무거워지기 때문에 공유해서 사용한다. (BigChar)
 - FlyweightFactory(플라이급 공장) 역
 Flyweight를 만드는 공장이다. (BigCharFactory)
 - Client(의뢰자) 역
