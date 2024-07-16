@@ -9,3 +9,6 @@
 Flyweight를 만드는 공장이다. (BigCharFactory)
 - Client(의뢰자) 역<br>
 FlyweightFactory를 사용하여 Flyweight를 만들어 내고 이용한다. (BigString)
+
+## 특징
+- 공유하고 있는 것을 변경하면 여러 곳에 영향을 미친다.
