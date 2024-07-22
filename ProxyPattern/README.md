@@ -6,6 +6,7 @@
 
 ## 구성요소
 - Subject(본인) 역
+Proxy와 Subject를 동일시 하기 위한 인터페이스를 정의한다. (Printable)
 - Proxy(대리인) 역
 - RealSubject(실제 본인) 역
 - Client(의뢰인) 역
