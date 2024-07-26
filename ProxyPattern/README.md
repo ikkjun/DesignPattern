@@ -5,9 +5,9 @@
 바빠서 그 일을 힐 수 없는 본인 객체를 대신해서 대리인 객체가 어느 정도 일을 처리하게 된다.
 
 ## 구성요소
-- Subject(본인) 역
+- Subject(본인) 역<br>
 Proxy와 Subject를 동일시 하기 위한 인터페이스를 정의한다. (Printable)
-- Proxy(대리인) 역
+- Proxy(대리인) 역<br>
 Client의 요청을 최대한 처리하고, 혼자서 처리할 수 앖는 작업은 다른 클래스에게 맡긴다. (PrinterProxy)
 - RealSubject(실제 본인) 역
 - Client(의뢰인) 역
