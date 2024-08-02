@@ -9,7 +9,7 @@
 Proxy와 Subject를 동일시 하기 위한 인터페이스를 정의한다. (Printable)
 - Proxy(대리인) 역<br>
 Client의 요청을 최대한 처리하고, 혼자서 처리할 수 앖는 작업은 다른 클래스에게 맡긴다. (PrinterProxy)
-- RealSubject(실제 본인) 역
+- RealSubject(실제 본인) 역<br>
 대리인인 Proxy만으로 감당할 수 없을 때 등장하는 것이 본인인 RealSubject이다. (Printer)
-- Client(의뢰인) 역
+- Client(의뢰인) 역<br>
 Proxy패턴을 이용하는 역할이다. (Main)
