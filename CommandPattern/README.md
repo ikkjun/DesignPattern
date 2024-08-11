@@ -9,3 +9,7 @@ Command 패턴은 명령을 표현하는 클래스를 하나의 객체로 표현
 Command의 인터페이스를 구현한다. (MacroCommand 클래스, DrawCommand 클래스)
 - Receiver(수신자) 역
 Command가 명령을 실행할 때 대상이 된다. (DrawCanvas)
+- Client(의뢰자) 역
+ConcreteCommand를 생성하고 그 때 Receiver를 할당한다. (Main 클래스)
+- Invoker(호출자) 역
+Command에 정의된 명령을 실행한다. (Main 클래스와 DrawCanvas 클래스)
