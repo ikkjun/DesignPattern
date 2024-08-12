@@ -13,3 +13,7 @@ Command가 명령을 실행할 때 대상이 된다. (DrawCanvas)
 ConcreteCommand를 생성하고 그 때 Receiver를 할당한다. (Main 클래스)
 - Invoker(호출자) 역
 Command에 정의된 명령을 실행한다. (Main 클래스와 DrawCanvas 클래스)
+
+## 특징
+- 명령이 가져야 하는 정보는 목적에 따라 달라진다.
+- 이력을 저장하는 인스턴스를 파일로 저장하면 이력이 보관된다.
