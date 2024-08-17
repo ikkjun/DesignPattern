@@ -5,3 +5,7 @@
 ## 구성요소
 - AbstractExpression(추상 표현) 역<br>
 구문 트리의 노드에 공통 인터페이스를 선언한다. (Node 클래스)
+- TerminalExpression(종단 표현) 역
+BNF의 터미널 익스프레션에 대응한다.
+- NonterminalExpression(비종단 표현) 역
+BNF의 논터미널 익스프레션에 대응한다.
