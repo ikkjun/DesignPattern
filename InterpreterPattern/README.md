@@ -7,7 +7,7 @@
 구문 트리의 노드에 공통 인터페이스를 선언한다. (Node 클래스)
 - TerminalExpression(종단 표현) 역
 BNF의 터미널 익스프레션에 대응한다.
-- NonterminalExpression(비종단 표현) 역
+- NonterminalExpression(비종단 표현) 역<br>
 BNF의 논터미널 익스프레션에 대응한다.
-- Context(문맥, 전후관계) 역
+- Context(문맥, 전후관계) 역<br>
 인터프리터가 구문 해석을 하기 위한 정보를 제공한다.
