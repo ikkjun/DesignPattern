@@ -13,3 +13,9 @@ BNF의 논터미널 익스프레션에 대응한다.
 인터프리터가 구문 해석을 하기 위한 정보를 제공한다.
 - Client(의뢰자) 역<br>
 TerminalExpression과 NonterminalExpression을 호출한다. (Main 클래스)
+
+## 특징
+- 미니 언어의 종류
+    - 정규 표현
+    - 검색 구문
+    - 일괄 처리 언어
